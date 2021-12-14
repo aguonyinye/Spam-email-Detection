@@ -1,0 +1,22 @@
+## Project Title:  Fairness in Spam email detection
+
+The internet has become an important part of life and the surge of internet use has also increased the numbers of email users daily.High usage of email has created problems caused by unsolicited bulk email messages commonly referred to as Spam.Spam is a type of email where unwanted messages, usually unwanted commercial messages, are distributed in large quantities by a spammer. In March 2013,a recent survey reported that the number of spam emails was about 100billion [2]. This phenomenal quantity is 98percent more than that from the end of the previous quarter. Some of the extreme effects of spam emails are loss of individual productivity and financial loss of organizations.In this paper, we report a fairness in Spam detection which makes use of content-based email features and location features such as country.The features were extracted from our dataset CSDMC2010 and models were trained and built using Pre-trained transformer model DistilBERT (Bidirectional Encoder Representations from Transformers) to execute the task of detecting spam emails from non-spam (HAM).After training the models, we used equality of odds methods to test for fairness in our model. 
+
+## Powerpoint presentation
+Slide presentation is uploaded in the repository
+
+## Project Description:
+Fairness in Spam email detection using equality of odds fairness metrics
+
+## Data set description
+Data source : https://gitlab.koehn.com/bkoehn/deep-spam/-/tree/69b93eff3885ba19474a115d43e621f421754cdd/CSDMC2010_SPAM
+Data set 	: CSDMC2010_SPAM
+
+## Pre-reqs
+a) tool for python programming - we've used Jupyter notebook (recommended) <br>
+b) packages:<br>
+	- pandas			for importing dataset <br>
+	- sklearn			model building and prediciton <br>
+	- matplotlib			visualizations <br>
+	-transformers(distilBERT)
+
